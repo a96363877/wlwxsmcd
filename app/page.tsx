@@ -22,6 +22,15 @@ export default function LoginPage() {
       {/* Header */}
       <header className="bg-gradient-to-r from-cyan-400 to-blue-600">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="text-white">
+          <img
+              src="/logoo.png"
+              alt="MEW Logo"
+              width={40}
+              height={40}
+              className="h-10 w-auto"
+            />
+          </div>
           <button className="text-white lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -40,20 +49,7 @@ export default function LoginPage() {
               <line x1="4" x2="20" y1="18" y2="18" />
             </svg>
           </button>
-          <div className="flex items-center">
-            <img
-              src="/logoo.png"
-              alt="MEW Logo"
-              width={40}
-              height={40}
-              className="h-10 w-auto"
-            />
-          </div>
-          <div className="text-white">
-            <Link href="/en" className="px-4 py-2 text-sm">
-              English
-            </Link>
-          </div>
+        
         </div>
       </header>
 
